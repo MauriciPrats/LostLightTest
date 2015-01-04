@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\newScripts\GravityBody.cs">
+    <Files>
+      <File FileName="Assets\Standard Assets\newScripts\CameraMinimap.cs" Line="10" Column="3" />
+      <File FileName="Assets\Standard Assets\newScripts\GravityBody.cs" Line="46" Column="28" />
+      <File FileName="Assets\Standard Assets\newScripts\GravityAttractor.cs" Line="43" Column="36" />
+      <File FileName="Assets\Standard Assets\newScripts\CharacterController.cs" Line="97" Column="64" />
+      <File FileName="Assets\Standard Assets\newScripts\Constants.cs" Line="15" Column="56" />
+      <File FileName="Assets\Standard Assets\newScripts\CameraFollowingPlayer.cs" Line="20" Column="22" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
