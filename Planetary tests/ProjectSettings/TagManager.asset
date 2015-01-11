@@ -3,7 +3,7 @@
 --- !u!78 &1
 TagManager:
   tags:
-  - Planet2
+  - Damageable
   - Planet
   - 
   Builtin Layer 0: Default

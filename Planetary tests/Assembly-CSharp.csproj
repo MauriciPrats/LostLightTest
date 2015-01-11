@@ -49,6 +49,7 @@
      <Compile Include="Assets\Cha_Data\Script\ScreenShot.cs" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Cha_Data\Shader\WrapLambert.shader" />
+     <None Include="Assets\KY_magicEffectsFree\ReadMe.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>

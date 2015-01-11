@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+using System.Collections.Generic;
 
 public class CharacterController : MonoBehaviour {
 
@@ -11,6 +11,7 @@ public class CharacterController : MonoBehaviour {
 	public float readySpaceJump;
 
 
+	private bool isAttacking = false;
 	private GravityBody body;
 	private Vector3 moveAmount;
 	private Vector3 smoothMoveVelocity;
@@ -18,14 +19,85 @@ public class CharacterController : MonoBehaviour {
 	private bool isSpaceJumping;
 	private bool isSpaceJumpCharged;
 	public GameObject particleSystemJumpCharge;
+	public GameObject particleSystemAttack;
 
+	public GameObject smallParticle;
+
+	bool attackEffectDone = false;
+
+
+	private float timeSinceAttackStarted = 0f;
+
+	private List<GameObject> closeEnemies = new List<GameObject>();
+
+	void OnTriggerEnter(Collider col)
+	{
+		if (col.gameObject.tag == "Damageable") {
+			closeEnemies.Add(col.gameObject);
+		}
+	}
+	void OnTriggerExit(Collider col)
+	{
+		if (col.gameObject.tag == "Damageable") {
+			closeEnemies.Remove(col.gameObject);
+		}
+	}
 	void Start () {
 		timeJumpPressed = 0;
 		body = GetComponent<GravityBody> ();
+		GameObject attack = GameObject.Find("skillAttack");
+	}
 
+	void attackEffect(){
+		attackEffectDone = true;
+		foreach(GameObject o in closeEnemies){
+			//o.rigidbody.AddForce((o.transform.position-transform.position).normalized*50f,ForceMode.VelocityChange);
+
+			for(int i = -2;i<2;i++){
+				for(int j = -2;j<2;j++){
+					for(int z = -2;z<2;z++){
+						GameObject newObject1 = (GameObject)Instantiate(smallParticle);
+						float randx = Random.Range(-0.1f,0.1f);
+						float randy = Random.Range(-0.1f,0.1f);
+						float randz = Random.Range(-0.1f,0.1f);
+
+						newObject1.transform.position = o.transform.position+new Vector3(i*0.2f+randx,j*0.2f+randy,z*0.2f+randz);
+						newObject1.transform.parent = o.transform.parent;
+						newObject1.rigidbody.useGravity=false;
+						float magnitud = (newObject1.transform.position-transform.position).magnitude;
+						float totalStrength = ((2f-magnitud)/2f)*200f;
+						newObject1.rigidbody.AddForce(((newObject1.transform.position-transform.position)).normalized*totalStrength,ForceMode.VelocityChange);
+					}
+				}
+			}
+			Destroy(o);
+
+		}
+		closeEnemies = new List<GameObject>();
 	}
 
 	void Update() {
+		if(Input.GetKeyUp(KeyCode.Q)){
+			if(!animation.IsPlaying("Attack")){
+				isAttacking = true;
+				animation.Play("Attack");
+				particleSystemAttack.particleSystem.Play();
+				attackEffectDone = false;
+			}
+		}
+
+		
+		if(!animation.IsPlaying("Attack")){
+			isAttacking = false;
+			timeSinceAttackStarted = 0f;
+		}else{
+			timeSinceAttackStarted += Time.deltaTime;
+			if(timeSinceAttackStarted>0.25f && timeSinceAttackStarted<0.35f){
+				if(!attackEffectDone){
+					attackEffect();
+				}
+			}
+		}
 		if (body.getIsTouchingPlanet ()) {
 
 			float inputHorizontal = Input.GetAxisRaw ("Horizontal");
@@ -55,10 +127,12 @@ public class CharacterController : MonoBehaviour {
 			}
 
 			//If there's horizontal input we play the walking animation
-			if (inputHorizontal != 0f) {
-					animation.Play ();
-			} else {
-					animation.Stop ();
+			if(!animation.IsPlaying("Attack")){
+				if (inputHorizontal != 0f) {
+						animation.Play ("Walk");
+				} else {
+						animation.Stop ("Walk");
+				}
 			}
 
 

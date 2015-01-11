@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
 [RequireComponent (typeof (Rigidbody))]
 public class GravityBody : MonoBehaviour {
 
@@ -42,8 +43,14 @@ public class GravityBody : MonoBehaviour {
 				closePlanets++;
 			}
 		}
-		if (closePlanets == 0) {
+		if (closePlanets == 0) 
+		{
 			usesSpaceGravity = true;
+			rigidbody.drag = 0f;
+		} 
+		else 
+		{
+			rigidbody.drag = Constants.GRAVITY_FORCE_OF_ATHMOSPHERE;
 		}
 	}
 

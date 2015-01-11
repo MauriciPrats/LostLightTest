@@ -14,4 +14,6 @@ public static class Constants{
 	//CAMERA CONSTANTS
 	public static float CAMERA_ANGLE_FOLLOWING_SPEED = 5f;
 
+	public static float GRAVITY_FORCE_OF_ATHMOSPHERE = 2f;
+
 }

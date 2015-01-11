@@ -49,6 +49,7 @@
      <Compile Include="Assets\Cha_Data\Script\ScreenShot.cs" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Cha_Data\Shader\WrapLambert.shader" />
+     <None Include="Assets\KY_magicEffectsFree\ReadMe.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>C:/Users/Multiplexor/Documents/LostLightTest/Planetary tests/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
