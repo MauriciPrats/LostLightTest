@@ -18,11 +18,11 @@ public class GravityBody : MonoBehaviour {
 	void OnCollisionEnter (Collision col)
 	{
 		//If we collide with a planet we put the drag of the player to the defined constant
-		if (col.gameObject.tag == "Planet") {
+		//if (col.gameObject.tag == "Planet") {
 			rigidbody.drag = Constants.DRAG_ON_TOUCH_PLANETS;
 			isTouchingPlanet = true;
 			usesSpaceGravity = false;
-		}
+		//}
 	}
 
 	void OnCollisionExit(Collision col){

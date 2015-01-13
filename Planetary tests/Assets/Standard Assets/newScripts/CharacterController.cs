@@ -77,6 +77,7 @@ public class CharacterController : MonoBehaviour {
 	}
 
 	void Update() {
+		if (Input.GetKey(KeyCode.Escape)) { Application.Quit(); }
 		if(Input.GetKeyUp(KeyCode.Q)){
 			if(!animation.IsPlaying("Attack")){
 				isAttacking = true;
@@ -114,9 +115,9 @@ public class CharacterController : MonoBehaviour {
 			//If we change the character looking direction we change the characters orientation and we invert the z angle
 			if (inputHorizontal > 0f) {
 					if (transform.localEulerAngles.y < 90f) {
-							transform.localEulerAngles = new Vector3 (transform.localEulerAngles.x, 0, transform.localEulerAngles.z);
+							transform.localEulerAngles = new Vector3 (transform.localEulerAngles.x, 0f, transform.localEulerAngles.z);
 					} else {
-							transform.localEulerAngles = new Vector3 (transform.localEulerAngles.x, 0, 360f - transform.localEulerAngles.z);
+							transform.localEulerAngles = new Vector3 (transform.localEulerAngles.x, 0f, 360f - transform.localEulerAngles.z);
 					}
 			} else if (inputHorizontal < 0f) {
 					if (transform.localEulerAngles.y < 90f) {

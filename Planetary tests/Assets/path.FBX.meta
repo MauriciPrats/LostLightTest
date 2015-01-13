@@ -1,0 +1,434 @@
+fileFormatVersion: 2
+guid: bb3ec5f05d29bdb4ba46e6edfd1fb995
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: bridge
+    100002: Cabeza hongo001
+    100004: Cabeza hongo002
+    100006: Cabeza hongo003
+    100008: Cabeza hongo004
+    100010: Cabeza hongo005
+    100012: Cabeza hongo006
+    100014: Cabeza hongo007
+    100016: Cabeza hongo008
+    100018: Cabeza hongo009
+    100020: Cabeza hongo010
+    100022: Cofre low001
+    100024: Cofre Tapa 001
+    100026: Compass001
+    100028: Cuerpo hongo001
+    100030: Cuerpo hongo002
+    100032: Cuerpo hongo003
+    100034: Cuerpo hongo004
+    100036: Cuerpo hongo005
+    100038: Cuerpo hongo006
+    100040: Cuerpo hongo007
+    100042: Cuerpo hongo008
+    100044: Cuerpo hongo009
+    100046: Cuerpo hongo010
+    100048: Luz hongo001
+    100050: Luz hongo002
+    100052: Luz hongo003
+    100054: Luz hongo004
+    100056: Luz hongo005
+    100058: Luz hongo006
+    100060: Luz hongo007
+    100062: Luz hongo008
+    100064: Luz hongo009
+    100066: Luz hongo010
+    100068: Path
+    100070: //RootNode
+    100072: pathDetail
+    100074: pathDetail01
+    100076: pathDetail02
+    100078: pathDetail03
+    100080: pathDetail04
+    100082: pathDetail05
+    100084: pathDetail06
+    100086: pathDetail07
+    100088: pathDetail08
+    100090: pathDetail09
+    100092: pathDetail10
+    100094: pathDetail11
+    100096: pathDetail12
+    100098: pathDetail13
+    100100: pathDetail14
+    100102: pathDetail15
+    100104: pathDetail16
+    100106: pathDetail17
+    100108: pathDetail18
+    100110: pathDetail19
+    100112: pathDetail20
+    100114: pathDetail21
+    100116: pathDetail22
+    100118: pathDetail23
+    100120: pathDetail24
+    100122: pathDetail25
+    100124: pathDetail26
+    100126: pathDetail27
+    100128: pathDetail28
+    100130: pathDetail29
+    100132: pathDetail30
+    100134: pathDetail31
+    100136: pathDetail32
+    100138: pathDetail33
+    100140: pathDetail34
+    100142: pathDetail35
+    100144: pathDetail36
+    100146: pathDetail37
+    100148: pathDetail38
+    100150: pathDetail39
+    100152: pathDetail40
+    100154: pathDetail41
+    100156: pathDetail42
+    100158: pathDetail43
+    100160: pathDetail44
+    100162: Planet_3D
+    100164: Roca005
+    400000: bridge
+    400002: Cabeza hongo001
+    400004: Cabeza hongo002
+    400006: Cabeza hongo003
+    400008: Cabeza hongo004
+    400010: Cabeza hongo005
+    400012: Cabeza hongo006
+    400014: Cabeza hongo007
+    400016: Cabeza hongo008
+    400018: Cabeza hongo009
+    400020: Cabeza hongo010
+    400022: Cofre low001
+    400024: Cofre Tapa 001
+    400026: Compass001
+    400028: Cuerpo hongo001
+    400030: Cuerpo hongo002
+    400032: Cuerpo hongo003
+    400034: Cuerpo hongo004
+    400036: Cuerpo hongo005
+    400038: Cuerpo hongo006
+    400040: Cuerpo hongo007
+    400042: Cuerpo hongo008
+    400044: Cuerpo hongo009
+    400046: Cuerpo hongo010
+    400048: Luz hongo001
+    400050: Luz hongo002
+    400052: Luz hongo003
+    400054: Luz hongo004
+    400056: Luz hongo005
+    400058: Luz hongo006
+    400060: Luz hongo007
+    400062: Luz hongo008
+    400064: Luz hongo009
+    400066: Luz hongo010
+    400068: Path
+    400070: //RootNode
+    400072: pathDetail
+    400074: pathDetail01
+    400076: pathDetail02
+    400078: pathDetail03
+    400080: pathDetail04
+    400082: pathDetail05
+    400084: pathDetail06
+    400086: pathDetail07
+    400088: pathDetail08
+    400090: pathDetail09
+    400092: pathDetail10
+    400094: pathDetail11
+    400096: pathDetail12
+    400098: pathDetail13
+    400100: pathDetail14
+    400102: pathDetail15
+    400104: pathDetail16
+    400106: pathDetail17
+    400108: pathDetail18
+    400110: pathDetail19
+    400112: pathDetail20
+    400114: pathDetail21
+    400116: pathDetail22
+    400118: pathDetail23
+    400120: pathDetail24
+    400122: pathDetail25
+    400124: pathDetail26
+    400126: pathDetail27
+    400128: pathDetail28
+    400130: pathDetail29
+    400132: pathDetail30
+    400134: pathDetail31
+    400136: pathDetail32
+    400138: pathDetail33
+    400140: pathDetail34
+    400142: pathDetail35
+    400144: pathDetail36
+    400146: pathDetail37
+    400148: pathDetail38
+    400150: pathDetail39
+    400152: pathDetail40
+    400154: pathDetail41
+    400156: pathDetail42
+    400158: pathDetail43
+    400160: pathDetail44
+    400162: Planet_3D
+    400164: Roca005
+    2300000: bridge
+    2300002: Cabeza hongo001
+    2300004: Cabeza hongo002
+    2300006: Cabeza hongo003
+    2300008: Cabeza hongo004
+    2300010: Cabeza hongo005
+    2300012: Cabeza hongo006
+    2300014: Cabeza hongo007
+    2300016: Cabeza hongo008
+    2300018: Cabeza hongo009
+    2300020: Cabeza hongo010
+    2300022: Cofre low001
+    2300024: Cofre Tapa 001
+    2300026: Cuerpo hongo001
+    2300028: Cuerpo hongo002
+    2300030: Cuerpo hongo003
+    2300032: Cuerpo hongo004
+    2300034: Cuerpo hongo005
+    2300036: Cuerpo hongo006
+    2300038: Cuerpo hongo007
+    2300040: Cuerpo hongo008
+    2300042: Cuerpo hongo009
+    2300044: Cuerpo hongo010
+    2300046: Path
+    2300048: pathDetail01
+    2300050: pathDetail02
+    2300052: pathDetail03
+    2300054: pathDetail04
+    2300056: pathDetail05
+    2300058: pathDetail06
+    2300060: pathDetail07
+    2300062: pathDetail08
+    2300064: pathDetail09
+    2300066: pathDetail10
+    2300068: pathDetail11
+    2300070: pathDetail12
+    2300072: pathDetail13
+    2300074: pathDetail14
+    2300076: pathDetail15
+    2300078: pathDetail16
+    2300080: pathDetail17
+    2300082: pathDetail18
+    2300084: pathDetail19
+    2300086: pathDetail20
+    2300088: pathDetail21
+    2300090: pathDetail22
+    2300092: pathDetail23
+    2300094: pathDetail24
+    2300096: pathDetail25
+    2300098: pathDetail26
+    2300100: pathDetail27
+    2300102: pathDetail28
+    2300104: pathDetail29
+    2300106: pathDetail30
+    2300108: pathDetail31
+    2300110: pathDetail32
+    2300112: pathDetail33
+    2300114: pathDetail34
+    2300116: pathDetail35
+    2300118: pathDetail36
+    2300120: pathDetail37
+    2300122: pathDetail38
+    2300124: pathDetail39
+    2300126: pathDetail40
+    2300128: pathDetail41
+    2300130: pathDetail42
+    2300132: pathDetail43
+    2300134: pathDetail44
+    2300136: Roca005
+    3300000: bridge
+    3300002: Cabeza hongo001
+    3300004: Cabeza hongo002
+    3300006: Cabeza hongo003
+    3300008: Cabeza hongo004
+    3300010: Cabeza hongo005
+    3300012: Cabeza hongo006
+    3300014: Cabeza hongo007
+    3300016: Cabeza hongo008
+    3300018: Cabeza hongo009
+    3300020: Cabeza hongo010
+    3300022: Cofre low001
+    3300024: Cofre Tapa 001
+    3300026: Cuerpo hongo001
+    3300028: Cuerpo hongo002
+    3300030: Cuerpo hongo003
+    3300032: Cuerpo hongo004
+    3300034: Cuerpo hongo005
+    3300036: Cuerpo hongo006
+    3300038: Cuerpo hongo007
+    3300040: Cuerpo hongo008
+    3300042: Cuerpo hongo009
+    3300044: Cuerpo hongo010
+    3300046: Path
+    3300048: pathDetail01
+    3300050: pathDetail02
+    3300052: pathDetail03
+    3300054: pathDetail04
+    3300056: pathDetail05
+    3300058: pathDetail06
+    3300060: pathDetail07
+    3300062: pathDetail08
+    3300064: pathDetail09
+    3300066: pathDetail10
+    3300068: pathDetail11
+    3300070: pathDetail12
+    3300072: pathDetail13
+    3300074: pathDetail14
+    3300076: pathDetail15
+    3300078: pathDetail16
+    3300080: pathDetail17
+    3300082: pathDetail18
+    3300084: pathDetail19
+    3300086: pathDetail20
+    3300088: pathDetail21
+    3300090: pathDetail22
+    3300092: pathDetail23
+    3300094: pathDetail24
+    3300096: pathDetail25
+    3300098: pathDetail26
+    3300100: pathDetail27
+    3300102: pathDetail28
+    3300104: pathDetail29
+    3300106: pathDetail30
+    3300108: pathDetail31
+    3300110: pathDetail32
+    3300112: pathDetail33
+    3300114: pathDetail34
+    3300116: pathDetail35
+    3300118: pathDetail36
+    3300120: pathDetail37
+    3300122: pathDetail38
+    3300124: pathDetail39
+    3300126: pathDetail40
+    3300128: pathDetail41
+    3300130: pathDetail42
+    3300132: pathDetail43
+    3300134: pathDetail44
+    3300136: Roca005
+    4300000: Path
+    4300002: pathDetail01
+    4300004: pathDetail02
+    4300006: pathDetail03
+    4300008: pathDetail04
+    4300010: pathDetail05
+    4300012: pathDetail06
+    4300014: pathDetail07
+    4300016: pathDetail08
+    4300018: pathDetail09
+    4300020: pathDetail10
+    4300022: pathDetail11
+    4300024: pathDetail12
+    4300026: pathDetail13
+    4300028: pathDetail14
+    4300030: pathDetail15
+    4300032: pathDetail16
+    4300034: pathDetail17
+    4300036: pathDetail18
+    4300038: pathDetail19
+    4300040: pathDetail20
+    4300042: pathDetail21
+    4300044: pathDetail22
+    4300046: pathDetail23
+    4300048: pathDetail24
+    4300050: pathDetail25
+    4300052: pathDetail26
+    4300054: pathDetail27
+    4300056: pathDetail28
+    4300058: pathDetail29
+    4300060: pathDetail30
+    4300062: pathDetail31
+    4300064: pathDetail32
+    4300066: pathDetail33
+    4300068: pathDetail34
+    4300070: pathDetail35
+    4300072: pathDetail36
+    4300074: pathDetail37
+    4300076: pathDetail38
+    4300078: pathDetail39
+    4300080: pathDetail40
+    4300082: pathDetail41
+    4300084: pathDetail42
+    4300086: pathDetail43
+    4300088: pathDetail44
+    4300090: bridge
+    4300092: Roca005
+    4300094: Cabeza hongo001
+    4300096: Cuerpo hongo001
+    4300098: Cuerpo hongo002
+    4300100: Cabeza hongo002
+    4300102: Cuerpo hongo003
+    4300104: Cabeza hongo003
+    4300106: Cabeza hongo004
+    4300108: Cuerpo hongo004
+    4300110: Cuerpo hongo005
+    4300112: Cabeza hongo005
+    4300114: Cuerpo hongo006
+    4300116: Cabeza hongo006
+    4300118: Cuerpo hongo007
+    4300120: Cabeza hongo007
+    4300122: Cuerpo hongo008
+    4300124: Cabeza hongo008
+    4300126: Cuerpo hongo009
+    4300128: Cabeza hongo009
+    4300130: Cuerpo hongo010
+    4300132: Cabeza hongo010
+    4300134: Cofre Tapa 001
+    4300136: Cofre low001
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
